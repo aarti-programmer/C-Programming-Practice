@@ -15,7 +15,7 @@ int main() {
     for(i = 0; i < row; i++) {
 
         // inner loop for printing stars
-        for(j = i; j >= 0; j--) {
+        for(j = 0; j <= i; j++) {
 
             printf("* ");
         }
